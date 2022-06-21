@@ -1,0 +1,4 @@
+#ifndef XTHREAD_DEBUG_H
+#define XTHREAD_DEBUG_H
+
+#endif // ! XTHREAD_DEBUG_H
