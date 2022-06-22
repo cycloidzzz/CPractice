@@ -8,7 +8,7 @@
 void hello(void *args) {
   while (1) {
     printf("What the fuck from Thread %zd\n", (size_t)args);
-    fflush(stdout);
+    // fflush(stdout);
   }
 }
 
@@ -20,7 +20,7 @@ int main() {
 
   while (1) {
     printf("Hello from main\n");
-    fflush(stdout);
+    // fflush(stdout);
   }
 
   return 0;
